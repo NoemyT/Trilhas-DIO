@@ -12,3 +12,14 @@ Conteúdos: Princípios de Desenvolvimento de Jogos 💻
 5. <s>Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso</s>
 6. <s>Contribuindo em um Projeto Open Source no GitHub</s>
 7. <s>Aula Inaugural - Potência Tech iFood</s>
+
+---
+Conteúdos: Criando suas Primeiras Páginas com HTML e CSS 👩‍💻
+
+1. Entendendo Comunicação ClientxServer
+2. Introdução ao HTML na Prática
+3. Trabalhando com Formulários em HTML
+4. Estruturando seu HTML + Formatações
+5. Fundamentos do CSS
+6. Estilizações Básicas com CSS
+7. Criando sua Primeira Landing Page com HTML e CSS
