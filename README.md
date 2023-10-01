@@ -10,5 +10,5 @@ Conteúdos: Princípios de Desenvolvimento de Jogos 💻
 3. <s>Introdução ao Desenvolvimento e Criação de Jogos</s>
 4. <s>Versionamento de Código com Git e GitHub</s>
 5. <s>Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso</s>
-6. Contribuindo em um Projeto Open Source no GitHub
-7. Aula Inaugural - Potência Tech iFood
+6. <s>Contribuindo em um Projeto Open Source no GitHub</s>
+7. <s>Aula Inaugural - Potência Tech iFood</s>
