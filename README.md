@@ -17,7 +17,7 @@ Conteúdos: Princípios de Desenvolvimento de Jogos 💻
 Conteúdos: Criando suas Primeiras Páginas com HTML e CSS 👩‍💻
 
 1. <s>Entendendo Comunicação ClientxServer</s>
-2. Introdução ao HTML na Prática
+2. <s>Introdução ao HTML na Prática</s>
 3. Trabalhando com Formulários em HTML
 4. Estruturando seu HTML + Formatações
 5. Fundamentos do CSS
