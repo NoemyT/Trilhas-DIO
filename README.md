@@ -18,7 +18,7 @@ Conteúdos: Criando suas Primeiras Páginas com HTML e CSS 👩‍💻
 
 1. <s>Entendendo Comunicação ClientxServer</s>
 2. <s>Introdução ao HTML na Prática</s>
-3. Trabalhando com Formulários em HTML
+3. <s>Trabalhando com Formulários em HTML</s>
 4. Estruturando seu HTML + Formatações
 5. Fundamentos do CSS
 6. Estilizações Básicas com CSS
