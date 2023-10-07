@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Control</title>
+</head>
+<body>
+    <div id="Title" align="center">
+        <h1>Form Registering</h1>
+        <p>Here you'll be required to fill the form, so please make sure to <b>complete it</b></p>
+    </div>
+    <form name="register" method="post">
+        <fieldset id="Maindata">
+            <legend>Personal Info</legend>
+            First Name: <input type="text" name="fname">
+            Last Name: <input type="text" name="lname"><br><br>
+            Age: <input type="number" min="16" max="30" name="age">
+            Birthday: <input type="date" name="birth">
+        </fieldset>
+        <br><br>
+        <fieldset id="Content">
+            <legend>Content Options</legend>
+            Color: <input type="color" name="color"><br><br>
+            Bald: <input type="radio" name="bald">Yes
+                  <input type="radio" name="bald">No
+            <br><br>
+            Silly: <input type="range" min="0" max="10" value="0" name="silly">
+        </fieldset>
+        <br><br>
+        <div id="button" align="center">
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
