@@ -1,6 +1,6 @@
 # Criando suas Primeiras Páginas com HTML e CSS 👩‍💻
 
-Nesta seção será armazenado os códigos produzidos dutante esta trilha, seja códigos desenvolvidos com base nas aulas ou o Lab.
+Nesta seção será armazenado os códigos produzidos dutante esta trilha, no caso os códigos desenvolvidos com base nas aulas. Para o desafio foi criado/forked um outro repositório: [Lab](https://github.com/NoemyT/css-desafio-01-NoemyT)
 
 ---
 ### Conteúdos
@@ -12,3 +12,4 @@ Nesta seção será armazenado os códigos produzidos dutante esta trilha, seja 
 2. Trabalhando com Formulários em HTML
 3. Estruturando seu HTML + Formatações
 4. Fundamentos do CSS
+5. Estilizações Básicas com CSS

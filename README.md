@@ -21,5 +21,5 @@ Conteúdos: Criando suas Primeiras Páginas com HTML e CSS 👩‍💻
 3. <s>Trabalhando com Formulários em HTML</s>
 4. <s>Estruturando seu HTML + Formatações</s>
 5. <s>Fundamentos do CSS</s>
-6. Estilizações Básicas com CSS
+6. <s>Estilizações Básicas com CSS</s>
 7. Criando sua Primeira Landing Page com HTML e CSS
