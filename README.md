@@ -22,4 +22,14 @@ Conteúdos: Criando suas Primeiras Páginas com HTML e CSS 👩‍💻
 4. <s>Estruturando seu HTML + Formatações</s>
 5. <s>Fundamentos do CSS</s>
 6. <s>Estilizações Básicas com CSS</s>
-7. Criando sua Primeira Landing Page com HTML e CSS
+7. <s>Criando sua Primeira Landing Page com HTML e CSS</s>
+
+---
+Conteúdos: Deixando suas Páginas Web Dinâmicas com JavaScript 🖱
+
+1. Primeiros Passos Com JavaScript
+2. Conheçendo Funções JavaScript
+3. Criando Objetos e Classes em JavaScript
+4. Arrays e Estruturas de Repetição em JavaScript
+5. Importação e Exportação com JavaScript
+6. Criando um Projeto com HTML/CSS para Listagem de Pokémon
