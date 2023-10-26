@@ -27,7 +27,7 @@ Conteúdos: Criando suas Primeiras Páginas com HTML e CSS 👩‍💻
 ---
 Conteúdos: Deixando suas Páginas Web Dinâmicas com JavaScript 🖱
 
-1. Primeiros Passos Com JavaScript
+1. <s>Primeiros Passos Com JavaScript</s>
 2. Conheçendo Funções JavaScript
 3. Criando Objetos e Classes em JavaScript
 4. Arrays e Estruturas de Repetição em JavaScript
