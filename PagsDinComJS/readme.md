@@ -8,3 +8,4 @@ Nesta seção será armazenado os códigos produzidos dutante esta trilha, no ca
 ![JavaScript](https://img.shields.io/badge/javascript-FFF?style=for-the-badge&logo=javascript&logoColor=FFFF)
 
 1. Primeiros Passos Com JavaScript
+2. Conhecendo Funções JavaScript

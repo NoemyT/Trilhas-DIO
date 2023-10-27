@@ -15,8 +15,8 @@
 
 */
 
-const peso = 200;
-const altura = 1.60;
+const peso = 60;
+const altura = 1.6;
 const imc = (peso / (altura**2)).toFixed(2);
 
 if (imc < 18.5) {
