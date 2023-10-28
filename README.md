@@ -29,7 +29,7 @@ Conteúdos: Deixando suas Páginas Web Dinâmicas com JavaScript 🖱
 
 1. <s>Primeiros Passos Com JavaScript</s>
 2. <s>Conheçendo Funções JavaScript</s>
-3. Criando Objetos e Classes em JavaScript
+3. <s>Criando Objetos e Classes em JavaScript</s>
 4. Arrays e Estruturas de Repetição em JavaScript
 5. Importação e Exportação com JavaScript
 6. Criando um Projeto com HTML/CSS para Listagem de Pokémon
