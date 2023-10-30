@@ -11,3 +11,4 @@ Nesta seção será armazenado os códigos produzidos dutante esta trilha, no ca
 2. Conhecendo Funções JavaScript
 3. Criando Objetos e Classes em JavaScript
 4. Arrays e Estruturas de Repetição em JavaScript
+5. Importação e Exportação com JavaScript
