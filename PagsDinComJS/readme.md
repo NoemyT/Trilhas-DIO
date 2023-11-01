@@ -12,3 +12,4 @@ Nesta seção será armazenado os códigos produzidos dutante esta trilha, no ca
 3. Criando Objetos e Classes em JavaScript
 4. Arrays e Estruturas de Repetição em JavaScript
 5. Importação e Exportação com JavaScript
+6. Criando um Projeto com HTML/CSS para Listagem de Pokémon

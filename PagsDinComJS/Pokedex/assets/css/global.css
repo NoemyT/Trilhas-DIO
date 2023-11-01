@@ -1,0 +1,31 @@
+* {
+    font-family: 'Roboto', sans-Serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightsteelblue;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+    -webkit-text-stroke: .05rem blue;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
