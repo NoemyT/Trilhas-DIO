@@ -33,3 +33,13 @@ Conteúdos: Deixando suas Páginas Web Dinâmicas com JavaScript 🖱
 4. <s>Arrays e Estruturas de Repetição em JavaScript</s>
 5. <s>Importação e Exportação com JavaScript</s>
 6. <s>Criando um Projeto com HTML/CSS para Listagem de Pokémon</s>
+
+---
+Conteúdos: Aprimorando Sua Lógica de Programação com Desafio de Código Básicos 📘
+
+1. <s>Desafios de Código: Aperfeiçoe Sua Lógica e Pensamento Computacional</s>
+2. <s>A Jornada Heroica</s>
+3. <s>Pontuando Experiências - XP</s>
+4. <s>Capturando Pokémons</s>
+5. <s>Coletando Tesouros</s>
+6. <s>Gerando Biomas em Mundo de Bloco</s>
