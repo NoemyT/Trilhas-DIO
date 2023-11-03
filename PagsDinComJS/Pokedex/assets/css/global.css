@@ -4,21 +4,45 @@
 }
 
 body {
-    background-color: lightsteelblue;
+    background-image: url(../img/pokeicon.png), linear-gradient(to right, lightsteelblue, skyblue);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {
     text-align: center;
-    color: yellow;
-    -webkit-text-stroke: .05rem blue;
+    color: black;
+    -webkit-text-stroke: 4px black;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 60px;
+    margin: 5px 0;
+    padding-bottom: 18px;
+    letter-spacing: 1.5px;
 }
 
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
+    background-color: transparent;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.pagination button {
+    background-color: transparent;
+    border: none;
+    font-size: xx-large;
+    padding: .5rem;
+    margin: 1rem;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 992px) {
