@@ -1,4 +1,4 @@
-# Desafios de Código: Aperfeiçoe Sua Lógica e Pensamento Computacional
+# Desafios de Código: Aperfeiçoe Sua Lógica e Pensamento Computacional 📘
 
 Nesta pasta serão armazenadas as soluções para os desafios de código propostos no nível básico.
 Obs: As funções print e gets foram substituídas por entradas iniciais e por console.log().

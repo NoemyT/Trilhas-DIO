@@ -43,3 +43,11 @@ Conteúdos: Aprimorando Sua Lógica de Programação com Desafio de Código Bás
 4. <s>Capturando Pokémons</s>
 5. <s>Coletando Tesouros</s>
 6. <s>Gerando Biomas em Mundo de Bloco</s>
+
+---
+Conteúdos: Avançando no JavaScript com Assíncronismo 🚀
+
+1. <s>Aprendendo Variáveis, Escopo e Tipos de dados no JavaScript</s>
+2. Orientação a Protótipo com JavaScript
+3. Funções e Manipulação de Listas com JavaScript
+4. Promises e Assíncronismo com JavaScript
