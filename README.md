@@ -48,6 +48,6 @@ Conteúdos: Aprimorando Sua Lógica de Programação com Desafio de Código Bás
 Conteúdos: Avançando no JavaScript com Assíncronismo 🚀
 
 1. <s>Aprendendo Variáveis, Escopo e Tipos de dados no JavaScript</s>
-2. Orientação a Protótipo com JavaScript
+2. <s>Orientação a Protótipo com JavaScript</s>
 3. Funções e Manipulação de Listas com JavaScript
 4. Promises e Assíncronismo com JavaScript
