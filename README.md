@@ -50,4 +50,4 @@ Conteúdos: Avançando no JavaScript com Assíncronismo 🚀
 1. <s>Aprendendo Variáveis, Escopo e Tipos de dados no JavaScript</s>
 2. <s>Orientação a Protótipo com JavaScript</s>
 3. <s>Funções e Manipulação de Listas com JavaScript</s>
-4. Promises e Assíncronismo com JavaScript
+4. <s>Promises e Assíncronismo com JavaScript</s>
