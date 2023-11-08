@@ -51,3 +51,12 @@ Conteúdos: Avançando no JavaScript com Assíncronismo 🚀
 2. <s>Orientação a Protótipo com JavaScript</s>
 3. <s>Funções e Manipulação de Listas com JavaScript</s>
 4. <s>Promises e Assíncronismo com JavaScript</s>
+
+---
+Conteúdos: Consolidando Conceitos com Desafios de Código em JavaScript 📗
+
+1. <s>Combatendo Monstros!</s>
+2. <s>Academia de Magia</s>
+3. <s>Tomadas de Decisão!</s>
+4. <s>Combinando Nomes de Pokémons</s>
+5. <s>Gerenciando Itens Mágicos</s>
