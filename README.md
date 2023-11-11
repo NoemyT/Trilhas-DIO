@@ -60,3 +60,11 @@ Conteúdos: Consolidando Conceitos com Desafios de Código em JavaScript 📗
 3. <s>Tomadas de Decisão!</s>
 4. <s>Combinando Nomes de Pokémons</s>
 5. <s>Gerenciando Itens Mágicos</s>
+
+---
+Conteúdos: Construindo o seu Portfólio de Jogos com JavaScript 🎮
+
+1. Criando um Jogo do Detona Ralph com JavaScript
+2. Criando um Jogo da memória com Emojis utilizando JavaScript
+3. Construindo um Simulador de Piano com JavaScript
+4. Criando um Jogo de Cartas do Yu-Gi-Oh! com JavaScript e CSS
