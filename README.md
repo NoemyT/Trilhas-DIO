@@ -1,6 +1,6 @@
 # Memory-Game-DIO
 
-OBS: Este repositório contém o código reproduzido por mim, com base na criação original da DIO. Em outras palavras o código original não é meu, e esta é uma replica produzida como projeto do Bootcamp de Desenvolvimento de Jogos da DIO, oferecido pela iFood.
+OBS: Este repositório contém o código reproduzido por mim, com base na criação original da DIO. Em outras palavras o código original não é meu, e esta é uma replica produzida como projeto do Bootcamp de Desenvolvimento de Jogos da DIO, oferecido pela iFood. Devido a um bug reconhecido no Navegador Mozilla Firefox é possível que este jogo não funcione corretamente. Recomendo fazer sua utilização no Edge da Microsoft ou Chrome da Google.
 
 A seguir segue uma paráfrase do README para outro projeto da DIO, sendo as modificações feitas com o objetivo de atender o conteúdo deste repositório.
 
