@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #b0c4de;
+    color: #fff;
+}
+
+.container {
+    width: 780px;
+    border-radius: 20px;
+    padding: 35px 40px;
+    background-color: #000;
+}
+
+.container header {
+    color: #b0c4de;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h2 {
+    font-size: 1.6rem;
+}
+
+header .column {
+    display: flex;
+    align-items: center;
+}
+
+header .column span {
+    font-weight: 500;
+    margin-right: 15px;
+    font-size: 1.1rem;
+}
+
+.volumeSlider input {
+    accent-color: #b0c4de;
+}
+
+.keysCheck input{
+    width: 60px;
+    height: 30px;
+    appearance: none;
+    border-radius: 30px;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+.keysCheck input::before {
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: #808080;
+    top: 50%;
+    left: .3rem;
+    position: absolute;
+    border-radius: inherit;
+    transform: translateY(-50%);
+    transition: all .3s ease;
+}
+
+.keysCheck input:checked::before {
+    left: 2.1rem;
+    background-color: #b0c4de;
+}
+
+.pianoKeys {
+    display: flex;
+    margin-top: 40px;
+}
