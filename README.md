@@ -64,7 +64,7 @@ Conteúdos: Consolidando Conceitos com Desafios de Código em JavaScript 📗
 ---
 Conteúdos: Construindo o seu Portfólio de Jogos com JavaScript 🎮
 
-1. Criando um Jogo do Detona Ralph com JavaScript
-2. Criando um Jogo da memória com Emojis utilizando JavaScript
-3. Construindo um Simulador de Piano com JavaScript
+1. <s>Criando um Jogo do Detona Ralph com JavaScript</s>
+2. <s>Criando um Jogo da memória com Emojis utilizando JavaScript</s>
+3. <s>Construindo um Simulador de Piano com JavaScript</s>
 4. Criando um Jogo de Cartas do Yu-Gi-Oh! com JavaScript e CSS
