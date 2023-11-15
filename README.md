@@ -8,7 +8,7 @@ A seguir segue uma paráfrase do README para outro projeto da DIO, sendo as modi
 ##  Awesome JSGame Piano Simulator
 
 <p align="center">
-  <img src="" alt="Piano Simulator (adicionar dps)">
+  <img src="./assests/imgs/virtualPiano.png" alt="Piano Simulator">
 </p>
 
 Bem-vindo ao **JSGame Piano Simulator**! Neste repositório, você encontrará um simulador de piano simples. Este projeto não apenas oferece entretenimento, mas também demonstra várias técnicas avançadas de desenvolvimento de jogos em JavaScript.

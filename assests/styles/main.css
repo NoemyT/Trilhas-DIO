@@ -72,3 +72,52 @@ header .column span {
     display: flex;
     margin-top: 40px;
 }
+
+.pianoKeys .key {
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+    color: #b0c4de;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.pianoKeys .white {
+    width: 70px;
+    height: 230px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    background: linear-gradient(#fff 96%, #eee 4%);
+}
+
+.pianoKeys .black {
+    width: 44px;
+    height: 140px;
+    z-index: 2;
+    margin: 0 -22px 0 -22px;
+    border: 1px solid #000;
+    border-radius: 0 0 5px 5px;
+    background: linear-gradient(#111, #000);
+}
+
+.pianoKeys span {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.13rem;
+}
+
+.pianoKeys .white.active {
+    box-shadow: inset -5px 5px 20px rgba(0, 0, 0, .2);
+    background: linear-gradient(#fff 0%, #eee 100%);
+}
+
+.pianoKeys .black.active {
+    box-shadow: inset -5px 5px 10px rgba(255, 255, 255, .1);
+    background: linear-gradient(#000, #434343);
+}
+
+.pianoKeys .key.hide span {
+    display: none;
+}
