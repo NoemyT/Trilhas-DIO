@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <!-- Settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yu-Gi-Oh RPS</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/buttons.css">
+    <link rel="stylesheet" href="./assets/styles/containers_and_frames.css">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+
+
+</head>
+<body>
+    
+    <div class="bg-vid">
+        <video class="video" autoplay loop muted>
+            <source src="./assets/vid/yugi.mp4" type="video/mp4"/>
+        </video>
+    </div>
+    <div class="container">
+        <div class="container__left framed-golden-2">
+            <div class="score_box frame">
+                <span id="score_points">Wins: 0 | Losses: 0</span>
+            </div>
+            <div class="menu_avatar">
+                <img id="card-img">
+            </div>
+            <div class="card_details frame">
+                <p id="card-name"></p>
+                <p id="card-type"></p>
+            </div>
+        </div>
+        <div class="container__right">
+            <div class="card-box__container">
+                <div class="card-box framed" id="pc-cards"></div>
+                <div class="card-versus">
+                    
+                </div>
+                <div class="card-box framed" id="py-cards"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Scripts -->
+    <script src="./assets/scripts/engine.js" defer></script>
+
+</body>
+</html>
