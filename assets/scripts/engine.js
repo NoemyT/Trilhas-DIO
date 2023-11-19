@@ -5,7 +5,7 @@ const state = {
         scoreBox: document.getElementById("score_points"),
     },
     cardSprites: {
-        avatar: document.getElementById("card-image"),
+        avatar: document.getElementById("card-img"),
         name: document.getElementById("card-name"),
         type: document.getElementById("card-type"),
     },
@@ -19,8 +19,8 @@ const state = {
 };
 
 const playerSides = {
-    player1: "player-field-side",
-    pc: "pc-field-side",
+    player1: "py-cards",
+    pc: "pc-cards",
 };
 
 const cardData = [
@@ -49,6 +49,38 @@ const cardData = [
         LoseTo: [1],
     },
 ];
+
+async function getRandomCardId() {
+    const randomIndex = Math.floor(Math.random() * cardData.length);
+    return cardData[randomIndex].id;
+}
+
+async function createCardImage(IdCard, fieldSide) {
+    const cardImage = document.createElement("img");
+    cardImage.setAttribute("height", "100px");
+    cardImage.setAttribute("src", "./assets/imgs/icons/card-back.png");
+    cardImage.setAttribute("data-id", IdCard);
+    cardImage.classList.add("card");
+
+
+    if (fieldSide === playerSides.player1) {
+        cardImage.addEventListener("mouseover", () => {
+            drawSelectedCard(IdCard);
+        });
+
+        cardImage.addEventListener("click", () => {
+            setCardsField(cardImage.getAttribute("data-id"));
+        });
+    }
+
+    return cardImage;
+}
+
+async function drawSelectedCard(index) {
+    state.cardSprites.avatar.src = cardData[index].img;
+    state.cardSprites.name.innerText = cardData[index].name;
+    state.cardSprites.type.innerText = "Type: " + cardData[index].type;
+}
 
 async function drawCards(cardNumbers, fieldSide) {
     for (let i=0; i<cardNumbers; i++) {
