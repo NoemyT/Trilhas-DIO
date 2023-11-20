@@ -113,8 +113,13 @@ async function removeAllCardsImages() {
 }
 
 async function checkDuelResult(cardId, pcCardId) {
-    let duelResults = "Draw";
+    let duelResults = "";
     let playerCard = cardData[cardId];
+
+    if (playerCard.id === pcCardId) {
+        duelResults = "Draw";
+        await playAudio("tab");
+    }
     
     if (playerCard.WinOf.includes(pcCardId)) {
         duelResults = "You Won";
@@ -150,6 +155,9 @@ async function resetDuel() {
     state.cardSprites.avatar.src = "";
     state.actions.button.style.display = "none";
 
+    state.cardSprites.name.innerHTML = "SELECT";
+    state.cardSprites.type.innerHTML = "A CARD";
+
     state.fieldCards.player.style.display = "none";
     state.fieldCards.pc.style.display = "none";
 
@@ -162,6 +170,13 @@ async function playAudio(status) {
 }
 
 function init() {
+    const bgm = document.getElementById("bgm");
+    bgm.volume = 0.4;
+    bgm.play();
+
+    state.fieldCards.player.style.display = "none";
+    state.fieldCards.pc.style.display = "none";
+
     drawCards(5, state.playerSides.player1);
     drawCards(5, state.playerSides.pc);
 }
