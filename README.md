@@ -8,7 +8,7 @@ A seguir segue uma paráfrase do README para outro projeto da DIO, sendo as modi
 ##  Awesome JSGame Yu-Gi-Oh RPS
 
 <p align="center">
-  <img src="" alt="YGORPS (colocar dps)">
+  <img src="./assets/imgs/ygo-rps.png" alt="YGORPS">
 </p>
 
 Bem-vindo ao **JSGame Yu-Gi-Oh RPS**! Neste repositório, você encontrará um jogo de Pedra-Papel-Tesoura, com a temática baseada no mangá/anime/jogo Yu-Gi-Oh!. Este projeto não apenas oferece entretenimento, mas também demonstra várias técnicas avançadas de desenvolvimento de jogos em JavaScript.
