@@ -3,10 +3,9 @@ const volumeSlider = document.querySelector(".volumeSlider input");
 const keyToggle = document.querySelector(".keysCheck input");
 
 let mapedKeys = [];
-let audio = new Audio("assets/sfx/a.wav");
 
 const playTune = (key) => {
-    audio.src = `assests/sfx/${key}.wav`;
+    let audio = new Audio(`assests/sfx/${key}.wav`);
     audio.play();
 
     const clickedKey = document.querySelector(`[data-key="${key}"]`);
@@ -28,7 +27,9 @@ document.addEventListener("keydown", (e) => {
 });
 
 const handleVolume = (e) => {
-    audio.volume = e.target.value;
+    document.querySelectorAll('audio').forEach(audio => {
+        audio.volume = e.target.value;
+    });
 };
 
 const keyDisplay = (e) => {
