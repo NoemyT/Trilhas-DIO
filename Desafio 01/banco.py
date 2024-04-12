@@ -56,6 +56,5 @@ while True:
         else:
             print("\nInsira um valor válido")
             
-
     else:
         print("Opção Inválida. Tente novamente")
