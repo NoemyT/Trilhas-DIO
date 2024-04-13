@@ -7,7 +7,7 @@ Repositório contendo os códigos produzidos para o curso de Python AI Backend D
 
 1. Python Essencial e Desenvolvimento Colaborativo com Git (7/7)
 
-2. Dominando Python e Suas Estruturas de Dados (4/11)
+2. Dominando Python e Suas Estruturas de Dados (11/11)
 
 3. Orientação a Objetos e Boas Práticas em Python (0/11)
 
