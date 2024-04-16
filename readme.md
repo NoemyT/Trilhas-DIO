@@ -9,7 +9,7 @@ Repositório contendo os códigos produzidos para o curso de Python AI Backend D
 
 2. Dominando Python e Suas Estruturas de Dados (11/11)
 
-3. Orientação a Objetos e Boas Práticas em Python (0/11)
+3. Orientação a Objetos e Boas Práticas em Python (6/11)
 
 4. Bancos de Dados SQL e NoSQL para Devs Backend (0/3)
 
