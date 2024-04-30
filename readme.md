@@ -13,6 +13,6 @@ Repositório contendo os códigos produzidos para o curso de Python AI Backend D
 
 4. Bancos de Dados SQL e NoSQL para Devs Backend (3/3)
 
-5. Explorando o FastAPI na Prática com TDD (2/3)
+5. Explorando o FastAPI na Prática com TDD (3/3)
 
-6. Desmistificando os Pilares da Inteligência Artificial (IA) (6/7)
+6. Desmistificando os Pilares da Inteligência Artificial (IA) (7/7)
