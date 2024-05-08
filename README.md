@@ -9,7 +9,7 @@ Repositório contendo os códigos produzidos durante o Bootcamp de Godot ofereci
 
 2. Base em Lógica de Programação para Jogos (6/6)
 
-3. Operadores e Estruturas de Controle para Jogos (0/11)
+3. Operadores e Estruturas de Controle para Jogos (11/11)
 
 4. Fundamentos de Game Design com Godot (0/5)
 
