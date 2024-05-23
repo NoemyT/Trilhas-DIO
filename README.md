@@ -1,6 +1,5 @@
 # DIO Godot 🤖
 
-
 Repositório contendo os códigos produzidos durante o Bootcamp de Godot oferecido pela DIO.
 
 ### Conteúdos
@@ -11,7 +10,7 @@ Repositório contendo os códigos produzidos durante o Bootcamp de Godot ofereci
 
 3. Operadores e Estruturas de Controle para Jogos (11/11)
 
-4. Fundamentos de Game Design com Godot (4/5)
+4. Fundamentos de Game Design com Godot (5/5)
 
 5. Mecânicas e Interatividade em jogos com Godot (0/4)
 
