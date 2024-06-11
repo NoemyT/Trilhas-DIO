@@ -1,0 +1,81 @@
+[gd_scene load_steps=13 format=3 uid="uid://6gwao0u15t3e"]
+
+[ext_resource type="Script" path="res://enemies/enemy.gd" id="1_5b0uw"]
+[ext_resource type="PackedScene" uid="uid://dg5q0ar7jkl3v" path="res://misc/skull.tscn" id="2_wlovi"]
+[ext_resource type="Texture2D" uid="uid://b2aj8v0dn5qsw" path="res://addons/Tiny Swords/Factions/Goblins/Troops/Torch/Red/Torch_Red.png" id="3_glihv"]
+[ext_resource type="Script" path="res://enemies/behaviors/follow_player.gd" id="4_3ao0y"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6g8ls"]
+atlas = ExtResource("3_glihv")
+region = Rect2(0, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p3odl"]
+atlas = ExtResource("3_glihv")
+region = Rect2(192, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6b8r5"]
+atlas = ExtResource("3_glihv")
+region = Rect2(384, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iy8bf"]
+atlas = ExtResource("3_glihv")
+region = Rect2(576, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r8a3a"]
+atlas = ExtResource("3_glihv")
+region = Rect2(768, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ol3l1"]
+atlas = ExtResource("3_glihv")
+region = Rect2(960, 192, 192, 192)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6uxg2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6g8ls")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p3odl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6b8r5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iy8bf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r8a3a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ol3l1")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_31pg7"]
+radius = 22.0
+height = 70.0
+
+[node name="Goblin" type="CharacterBody2D" groups=["enemies"]]
+scale = Vector2(2, 2)
+motion_mode = 1
+script = ExtResource("1_5b0uw")
+death_prefab = ExtResource("2_wlovi")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -33)
+sprite_frames = SubResource("SpriteFrames_6uxg2")
+autoplay = "default"
+frame_progress = 0.814114
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, -36)
+shape = SubResource("CapsuleShape2D_31pg7")
+debug_color = Color(0, 0.6, 0.701961, 0.215686)
+
+[node name="FollowPlayer" type="Node" parent="."]
+script = ExtResource("4_3ao0y")
+speed = 0.5

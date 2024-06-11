@@ -1,0 +1,172 @@
+[gd_scene load_steps=7 format=3 uid="uid://bylm30gc166s8"]
+
+[ext_resource type="Texture2D" uid="uid://dw1g4cfg1enci" path="res://addons/Tiny Swords/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png" id="1_h71ed"]
+[ext_resource type="PackedScene" uid="uid://cjxywcukqi20y" path="res://player/player.tscn" id="2_x4458"]
+[ext_resource type="PackedScene" uid="uid://c6oss7q07k8y6" path="res://enemies/pawn.tscn" id="3_egj1k"]
+[ext_resource type="PackedScene" uid="uid://buo3ogn1ynb6a" path="res://enemies/sheep.tscn" id="4_hhkhs"]
+[ext_resource type="PackedScene" uid="uid://6gwao0u15t3e" path="res://enemies/goblin.tscn" id="5_7fd1t"]
+[ext_resource type="PackedScene" uid="uid://bcqgjeoygvkry" path="res://misc/meat.tscn" id="6_ebnll"]
+
+[node name="TestPlayer" type="Node2D"]
+
+[node name="WarriorBlue" type="Sprite2D" parent="."]
+position = Vector2(2839, 1345)
+texture = ExtResource("1_h71ed")
+
+[node name="Label" type="Label" parent="WarriorBlue"]
+offset_left = -768.0
+offset_top = -680.0
+offset_right = -735.0
+offset_bottom = -657.0
+text = "Idle"
+
+[node name="Label2" type="Label" parent="WarriorBlue"]
+offset_left = -768.0
+offset_top = -496.0
+offset_right = -735.0
+offset_bottom = -473.0
+text = "Run"
+
+[node name="Label3" type="Label" parent="WarriorBlue"]
+offset_left = -768.0
+offset_top = -304.0
+offset_right = -624.0
+offset_bottom = -281.0
+text = "Sideways_Attack_1"
+
+[node name="Label4" type="Label" parent="WarriorBlue"]
+offset_left = -768.0
+offset_top = -104.0
+offset_right = -624.0
+offset_bottom = -81.0
+text = "Sideways_Attack_2"
+
+[node name="Label5" type="Label" parent="WarriorBlue"]
+offset_left = -768.0
+offset_top = 80.0
+offset_right = -603.0
+offset_bottom = 103.0
+text = "Downwards_Attack_1"
+
+[node name="Label6" type="Label" parent="WarriorBlue"]
+offset_left = -768.0
+offset_top = 272.0
+offset_right = -603.0
+offset_bottom = 295.0
+text = "Downwards_Attack_2"
+
+[node name="Label7" type="Label" parent="WarriorBlue"]
+offset_left = -768.0
+offset_top = 464.0
+offset_right = -603.0
+offset_bottom = 487.0
+text = "Upwards_Attack_1"
+
+[node name="Label8" type="Label" parent="WarriorBlue"]
+offset_left = -768.0
+offset_top = 656.0
+offset_right = -603.0
+offset_bottom = 679.0
+text = "Upwards_Attack_2"
+
+[node name="Label9" type="Label" parent="WarriorBlue"]
+offset_left = -512.0
+offset_top = -792.0
+offset_right = -436.0
+offset_bottom = -769.0
+text = "     0                                             1                                            2                                           3                                            4                                              5"
+
+[node name="Label10" type="Label" parent="WarriorBlue"]
+offset_left = 640.0
+offset_top = -768.0
+offset_right = 656.0
+offset_bottom = -615.0
+text = "
+
+
+0 
+
+
+
+
+
+
+1
+
+
+
+
+
+
+
+2
+
+
+
+
+
+
+3 
+
+
+
+
+
+
+
+4 
+
+
+
+
+
+
+5
+
+
+
+
+
+
+6
+
+
+
+
+
+
+
+7"
+
+[node name="Player" parent="." instance=ExtResource("2_x4458")]
+position = Vector2(579, 347)
+
+[node name="Pawn" parent="." instance=ExtResource("3_egj1k")]
+position = Vector2(799, 938)
+
+[node name="Pawn2" parent="." instance=ExtResource("3_egj1k")]
+position = Vector2(-755, 621)
+
+[node name="Pawn3" parent="." instance=ExtResource("3_egj1k")]
+position = Vector2(455, -408)
+
+[node name="Sheep" parent="." instance=ExtResource("4_hhkhs")]
+position = Vector2(-369, -94)
+
+[node name="Sheep2" parent="." instance=ExtResource("4_hhkhs")]
+position = Vector2(208, 299)
+
+[node name="Sheep3" parent="." instance=ExtResource("4_hhkhs")]
+position = Vector2(-102, 321)
+
+[node name="Goblin4" parent="." instance=ExtResource("5_7fd1t")]
+position = Vector2(1436, 71)
+
+[node name="Meat" parent="." instance=ExtResource("6_ebnll")]
+position = Vector2(530, 186)
+
+[node name="Meat2" parent="." instance=ExtResource("6_ebnll")]
+position = Vector2(167, 588)
+
+[node name="Meat3" parent="." instance=ExtResource("6_ebnll")]
+position = Vector2(1060, 505)
