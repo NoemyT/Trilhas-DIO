@@ -12,6 +12,6 @@ Repositório contendo os códigos produzidos durante o Bootcamp de Godot ofereci
 
 4. Fundamentos de Game Design com Godot (5/5)
 
-5. Mecânicas e Interatividade em jogos com Godot (2/4)
+5. Mecânicas e Interatividade em jogos com Godot (4/4)
 
-6. Soft Skills na Era Ágil: Conectando Pessoas e Oportunidades (4/5)
+6. Soft Skills na Era Ágil: Conectando Pessoas e Oportunidades (5/5)

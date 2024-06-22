@@ -105,7 +105,7 @@ tracks/2/keys = {
 "times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
 "update": 0,
-"values": [Color(0, 0, 0, 0), Color(0.00828744, 0.410099, 0.642944, 1), Color(0.0901961, 0.431373, 0.866667, 0.45098), Color(0.00784314, 0.411765, 0.643137, 1), Color(0.0901961, 0.431373, 0.866667, 0.45098), Color(0.00784314, 0.411765, 0.643137, 1), Color(0.0901961, 0.431373, 0.866667, 0.45098), Color(0.00784314, 0.411765, 0.643137, 1), Color(0.0901961, 0.431373, 0.866667, 0.45098), Color(0.00784314, 0.411765, 0.643137, 1), Color(0.0901961, 0.431373, 0.866667, 0.45098), Color(0, 0.531502, 0.787615, 0)]
+"values": [Color(0, 0, 0, 0), Color(0, 0.0901961, 0.87451, 1), Color(0.0901961, 0.431373, 0.866667, 0.45098), Color(0, 0.0901961, 0.87451, 1), Color(0.0901961, 0.431373, 0.866667, 0.45098), Color(0, 0.0901961, 0.87451, 1), Color(0.0901961, 0.431373, 0.866667, 0.45098), Color(0, 0.0901961, 0.87451, 1), Color(0.0901961, 0.431373, 0.866667, 0.45098), Color(0, 0.0901961, 0.87451, 1), Color(0.0901961, 0.431373, 0.866667, 0.45098), Color(0, 0.531502, 0.787615, 0)]
 }
 tracks/3/type = "value"
 tracks/3/imported = false
@@ -185,6 +185,7 @@ autoplay = "default"
 speed_scale = 1.2
 
 [node name="Images" type="Node2D" parent="."]
+modulate = Color(0, 0, 0.784314, 1)
 
 [node name="Circle04" type="Sprite2D" parent="Images"]
 material = SubResource("CanvasItemMaterial_0jiv5")
@@ -192,13 +193,13 @@ scale = Vector2(0.8, 0.8)
 texture = ExtResource("1_m4dlm")
 
 [node name="Light02" type="Sprite2D" parent="Images"]
-self_modulate = Color(0.072687, 0.580191, 1, 1)
+self_modulate = Color(0.27451, 0.219608, 1, 1)
 material = SubResource("CanvasItemMaterial_0jiv5")
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("2_8h6x1")
 
 [node name="Magic03" type="Sprite2D" parent="Images"]
-self_modulate = Color(0, 0.623529, 0.87451, 0.764706)
+self_modulate = Color(0, 0.0901961, 0.87451, 1)
 material = SubResource("CanvasItemMaterial_0jiv5")
 scale = Vector2(1.25, 1.25)
 texture = ExtResource("3_o46am")
