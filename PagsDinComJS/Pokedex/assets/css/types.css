@@ -1,0 +1,139 @@
+.grass {
+    background-color: #03c44a;
+}
+
+.pokemon .detail .types .grass {
+    background-color: #78c850;
+}
+
+.fire {
+    background-color: #e3242b;
+}
+
+.pokemon .detail .types .fire {
+    background-color: #f08030;
+}
+
+.water {
+    background-color: #0492c2;
+}
+
+.pokemon .detail .types .water {
+    background-color: #6890F0;
+}
+
+.electric {
+    background-color: #ee0;
+}
+
+.pokemon .detail .types .electric {
+    background-color: #F8D030;
+}
+
+.psychic {
+    background-color: #fc46aa;
+}
+
+.pokemon .detail .types .psychic {
+    background-color: #F85888;
+}
+
+.ice {
+    background-color: #00c0ee;
+}
+
+.pokemon .detail .types .ice {
+    background-color: #98D8D8;
+}
+
+.dragon {
+    background-color: #5f4cf0;
+}
+
+.pokemon .detail .types .dragon {
+    background-color: #7038F8;
+}
+
+.dark {
+    background-color: #4b3a26;
+}
+
+.pokemon .detail .types .dark {
+    background-color: #705848;
+}
+
+.fairy {
+    background-color: #fec5e5;
+}
+
+.pokemon .detail .types .fairy {
+    background-color: #EE99AC;
+}
+
+.normal {
+    background-color: #7f7053;
+}
+
+.pokemon .detail .types .normal {
+    background-color: #A8A878;
+}
+
+.fighting {
+    background-color: #902020;
+}
+
+.pokemon .detail .types .fighting {
+    background-color: #C03028;
+}
+
+.flying {
+    background-color: #a890f0;
+}
+
+.poison {
+    background-color: #8806ce;
+}
+
+.pokemon .detail .types .poison {
+    background-color: #A040A0;
+}
+
+.ground {
+    background-color: #f2e77a;
+}
+
+.pokemon .detail .types .ground {
+    background-color: #E0C068;
+}
+
+.rock {
+    background-color: #b87333;
+}
+
+.pokemon .detail .types .rock {
+    background-color: #B8A038;
+}
+
+.bug {
+    background-color: #98bf64;
+}
+
+.pokemon .detail .types .bug {
+    background-color: #A8B820;
+}
+
+.ghost {
+    background-color: #663399;
+}
+
+.pokemon .detail .types .ghost {
+    background-color: #705898;
+}
+
+.steel {
+    background-color: #ced3d4;
+}
+
+.pokemon .detail .types .steel {
+    background-color: #B8B8D0;
+}

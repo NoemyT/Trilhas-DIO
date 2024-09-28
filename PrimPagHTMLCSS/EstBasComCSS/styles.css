@@ -1,0 +1,38 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: 1px underline rgb(255, 50, 0);
+    color: orangered;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+
+#intro {
+    background-color: beige;
+    border: 2px inset orangered;
+    margin: 10px;
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+    color: orangered;
+}
+
+#main {
+    background-color: beige;
+    border: 2px inset orangered;
+    color: orangered;
+    font-size: large;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#fox {
+    width: 400px;
+    filter: drop-shadow(10px 10px 10px gray);
+    padding-bottom: 3px;
+}

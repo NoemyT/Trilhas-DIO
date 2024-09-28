@@ -1,0 +1,16 @@
+body{
+    background-color: azure;
+}
+
+h1{
+    text-align: center;
+    color: darkred;
+    margin: 24px;
+}
+
+#sub{
+    background-color: cadetblue;
+    box-sizing: border-box;
+    margin: 24px;
+    padding: 12px;
+}
