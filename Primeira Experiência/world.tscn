@@ -1,0 +1,69 @@
+[gd_scene load_steps=5 format=3 uid="uid://b2j2v47pfdebd"]
+
+[ext_resource type="PackedScene" uid="uid://dp1o7jwk6w3x3" path="res://objects/box_regular.tscn" id="1_xcajp"]
+[ext_resource type="PackedScene" uid="uid://bodxgmq8tn804" path="res://objects/box_bouncy.tscn" id="2_f7qga"]
+
+[sub_resource type="GDScript" id="GDScript_k5w5m"]
+script/source = "extends Node
+
+@export var object_templates: Array[PackedScene]
+
+func _input(event: InputEvent) -> void:
+	if event is InputEventMouseButton:
+		if event.button_index == 1:
+			if event.pressed:
+				spawn_box(event.position)
+
+func spawn_box(position: Vector2) -> void:
+	var index: int = randi_range(0, object_templates.size() - 1)
+	var object_template = object_templates[index]
+	var object: RigidBody2D = object_template.instantiate()
+	object.position = position
+	add_child(object)
+"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sio27"]
+size = Vector2(800, 50)
+
+[node name="World" type="Node2D"]
+
+[node name="GameManager" type="Node" parent="."]
+script = SubResource("GDScript_k5w5m")
+object_templates = Array[PackedScene]([ExtResource("1_xcajp"), ExtResource("2_f7qga")])
+
+[node name="Background" type="ColorRect" parent="."]
+offset_right = 800.0
+offset_bottom = 600.0
+color = Color(0.67428, 0.885059, 0.969182, 1)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(400, 550)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(0, 25)
+shape = SubResource("RectangleShape2D_sio27")
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D/CollisionShape2D"]
+offset_left = -400.0
+offset_top = -25.0
+offset_right = 400.0
+offset_bottom = 25.0
+color = Color(0.551927, 0.78014, 0.501055, 1)
+
+[node name="Box Regular" parent="." instance=ExtResource("1_xcajp")]
+position = Vector2(176, 247)
+
+[node name="Box Regular2" parent="." instance=ExtResource("1_xcajp")]
+position = Vector2(362, 210)
+
+[node name="Box Regular3" parent="." instance=ExtResource("1_xcajp")]
+position = Vector2(542, 99)
+
+[node name="Box Bouncy" parent="." instance=ExtResource("2_f7qga")]
+position = Vector2(104, 112)
+
+[node name="Box Bouncy2" parent="." instance=ExtResource("2_f7qga")]
+position = Vector2(397, 95)
+
+[node name="Box Bouncy3" parent="." instance=ExtResource("2_f7qga")]
+position = Vector2(623, 223)
