@@ -9,7 +9,7 @@ Nesta seção será disponibilizado os links para os repositórios contendo os c
 ![CSS3](https://img.shields.io/badge/CSS3-FFF?style=for-the-badge&logo=css3&logoColor=00F)
 ![JavaScript](https://img.shields.io/badge/javascript-FFF?style=for-the-badge&logo=javascript&logoColor=FFFF)
 
-1. [Wreck-it Ralph](link)
-2. [Jogo da Memória](link)
-3. [Simulador de Piano](link)
-4. [Jogo de Cartas](link)
+1. [Wreck-it Ralph](https://github.com/NoemyT/Trilhas-DIO/tree/trilha-jogos-js/WreckItRalph)
+2. [Jogo da Memória](https://github.com/NoemyT/Trilhas-DIO/tree/trilha-jogos-js/MemoryGame)
+3. [Simulador de Piano](https://github.com/NoemyT/Trilhas-DIO/tree/trilha-jogos-js/VirtualPiano)
+4. [Jogo de Cartas](https://github.com/NoemyT/Trilhas-DIO/tree/trilha-jogos-js/RPS-YGO-DIO)
